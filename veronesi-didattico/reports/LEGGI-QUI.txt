@@ -1,0 +1,19 @@
+CARTELLA REPORTS — Istruzioni
+==============================
+
+Inserisci qui i file PDF dei report di sostenibilità.
+
+File attesi:
+  - dnf-GitHub
+  - dnf-2023.pdf
+  - dnf-2024.pdf
+  - annual-report-2023.pdf
+
+Puoi scaricare i report reali da:
+  https://www.gruppoveronesi.it/annual-report
+
+Oppure usa PDF di esempio (qualsiasi PDF rinominato)
+per testare i link di download durante lo sviluppo.
+
+Una volta caricati su GitHub, i link nel sito useranno:
+https://github.com/Alekso97/PW-Alessio-Patrizi-Report-Gruppo-Veronesi/tree/85a6e8e0ac9fe49692dc8332ede22bd323ced535/veronesi-didattico

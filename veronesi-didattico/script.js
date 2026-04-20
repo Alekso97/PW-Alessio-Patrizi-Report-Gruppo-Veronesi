@@ -250,7 +250,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Aggiunge data attributes alle card esistenti
     const reportCards = reportsContainer.querySelectorAll('.report-card');
     const typesMap = ['dnf', 'dnf', 'dnf', 'annual'];
-    const yearsMap = ['2023', '2022', '2021', '2023'];
+    const yearsMap = ['2023', , '2024', '2023'];
 
     reportCards.forEach((card, i) => {
       card.dataset.type = typesMap[i] || 'dnf';
@@ -271,8 +271,7 @@ document.addEventListener('DOMContentLoaded', () => {
       { label: 'DNF',           type: 'dnf',    year: 'all' },
       { label: 'Annual Report', type: 'annual', year: 'all' },
       { label: '2023',          type: 'all',    year: '2023' },
-      { label: '2022',          type: 'all',    year: '2022' },
-      { label: '2021',          type: 'all',    year: '2021' },
+      { label: '2024',          type: 'all',    year: '2024' },
     ];
 
     filters.forEach((f, index) => {

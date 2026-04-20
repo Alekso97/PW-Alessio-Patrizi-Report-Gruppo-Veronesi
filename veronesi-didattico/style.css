@@ -59,26 +59,7 @@ body {
 }
 
 
-/* ─────────────────────────────────────────────────────────
-   3. TOP BAR
-   Barra nera in cima con link utility (area riservata, ecc.)
-   ───────────────────────────────────────────────────────── */
-.topbar {
-  background: var(--testo);
-  color: #fff;
-  display: flex;
-  justify-content: flex-end;  /* allinea i link a destra */
-  gap: 2rem;
-  padding: 0.5rem 4rem;
-  font-size: 0.78rem;
-  letter-spacing: 0.04em;
-}
-.topbar a {
-  color: #ccc;
-  text-decoration: none;
-  transition: color .2s;  /* transizione colore al hover */
-}
-.topbar a:hover { color: var(--oro); }
+
 
 
 /* ─────────────────────────────────────────────────────────
@@ -283,7 +264,7 @@ nav { display: flex; gap: 0; }
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  background: var(--oro);
+  background: rgba(26,26,24,1.00)(--black);
   color: #fff;
   padding: 0.65rem 1.3rem;
   font-size: 0.78rem;
@@ -295,20 +276,6 @@ nav { display: flex; gap: 0; }
   cursor: pointer;
   transition: background .2s, transform .15s;
   white-space: nowrap;
-}
-.btn-download:hover {
-  background: #a8893a;
-  transform: translateY(-1px);
-}
-.btn-download svg {
-  width: 14px;
-  height: 14px;
-}
-/* Stato di caricamento — classe aggiunta da JavaScript */
-.btn-download.loading {
-  opacity: 0.7;
-  pointer-events: none;
-  cursor: wait;
 }
 
 
